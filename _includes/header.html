@@ -19,7 +19,7 @@
         <h1 class="title">
             <span id="name-display" data-bengali-name="{{ site.title-bengali }}" data-english-name="{{ site.title }}">{{ site.title }}</span>
         </h1>
-        <h2 class="description">{% assign bio_parts = site.bio | split: 'Weather' %}{{ bio_parts[0] }}<a href="{{ site.url }}/weather" class="weather-link">Weather</a>{{ bio_parts[1] }}</h2>
+        <h2 class="description">{% assign bio_parts = site.bio | split: 'Weather' %}{{ bio_parts[0] }}<a href="{{ site.url }}/weather" class="weather-link">Weather</a>{% assign climate_parts = bio_parts[1] | split: 'Climate' %}{{ climate_parts[0] }}<a href="{{ site.url }}/climate" class="climate-link">Climate</a>{{ climate_parts[1] }}</h2>
 
         {% include social-links.html %}
     </header>

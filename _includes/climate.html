@@ -1,0 +1,98 @@
+<style>
+    .climate-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .climate-stripes {
+        width: 100%;
+        height: 200px;
+        margin: 20px 0;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .climate-info {
+        margin-top: 20px;
+        font-size: 1.6rem;
+        color: #666;
+        line-height: 1.6;
+    }
+
+    .climate-controls {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 20px 0;
+        flex-wrap: wrap;
+    }
+
+    .climate-controls select {
+        padding: 10px 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 1.4rem;
+        background: white;
+        cursor: pointer;
+    }
+
+    .climate-loading {
+        text-align: center;
+        padding: 40px;
+        font-size: 1.6rem;
+        color: #999;
+    }
+
+    .climate-error {
+        text-align: center;
+        padding: 40px;
+        font-size: 1.6rem;
+        color: #d32f2f;
+    }
+
+    .climate-legend {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+        font-size: 1.4rem;
+        color: #666;
+    }
+
+    .legend-gradient {
+        flex: 1;
+        height: 20px;
+        margin: 0 10px;
+        background: linear-gradient(to right, #08306b, #4292c6, #c6dbef, #fee090, #fc8d59, #d73027, #67001f);
+        border-radius: 2px;
+    }
+</style>
+
+<div class="climate-container">
+    
+    <div class="climate-info">
+        <p>Visualising global temperature anomalies using Ed Hawkins' climate stripes.</p>
+        <p>Each stripe represents one year, colored by temperature relative to the 1961-1990 reference period.</p>
+    </div>
+
+    <div class="climate-controls">
+        <select id="period-select">
+            <option value="1850-2025">1850–2025 (Full)</option>
+            <option value="1900-2025">1900–2025</option>
+            <option value="1950-2025">1950–2025</option>
+            <option value="1980-2025">1980–2025</option>
+        </select>
+    </div>
+
+    <div id="climate-stripes-container">
+        <div class="climate-loading">Loading climate data...</div>
+    </div>
+
+    <div class="climate-info" style="margin-top: 30px;">
+        <p><small>Data Source: <a href="https://www.metoffice.gov.uk/hadobs/hadcrut5/data/HadCRUT.5.1.0.0/download.html" target="_blank">HadCRUT5</a></small></p>
+        <p><small>Inspired by <a href="https://showyourstripes.info/" target="_blank">Ed Hawkins' #ShowYourStripes</a></small></p>
+    </div>
+</div>
+
+<script src="{{ site.url }}/assets/js/climate.js"></script>

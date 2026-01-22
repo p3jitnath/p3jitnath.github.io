@@ -1,14 +1,101 @@
 ---
 layout: default
-permalink: /404.html 
+title: 404
+permalink: /404.html
 ---
 
+<style>
+  .lost-container {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .error-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 10px 0;
+    line-height: 1.2;
+  }
+
+  .error-subtitle {
+    font-size: 1.8rem;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+
+  .error-message {
+    font-size: 1.5rem;
+    color: #777;
+    margin: 30px 0;
+    line-height: 1.8;
+  }
+
+  .error-message a {
+    color: #c7254e;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .error-message a:hover {
+    text-decoration: none;
+  }
+
+  .error-emoji {
+    font-size: 5rem;
+    margin: 30px 0;
+  }
+
+  .error-links {
+    margin-top: 40px;
+  }
+
+  .error-links a:first-child {
+    background: transparent;
+    color: #4b0082;
+    border: 2px solid #4b0082;
+    padding: 8px 16px;
+    font-weight: 200;
+    transition: all 0.2s ease;
+  }
+
+  .error-links a:first-child:hover {
+    background: #4b0082;
+    color: #fff;
+  }
+
+  .error-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    transition: background 0.3s ease;
+  }
+
+  .error-links a:hover {
+    background: #3a0066;
+  }
+</style>
+
 <section class="lost-container">
-  <h1>Uh oh!</h1>
-  <div class="link">
-    <img class="selfie" alt="{{ site.title }}" src="{{ site.url }}/assets/images/error.gif" />
+  <h1 class="error-title">404</h1>
+  <div class="error-emoji">🌊</div>
+
+  <h2 class="error-subtitle">This page was last seen chasing a tropical storm.</h2>
+
+  <p class="error-message">
+    Fun fact: <a href="https://www.mirror.co.uk/news/uk-news/breaking-bbc-weather-blunder-sees-33728317" target="_blank" rel="noopener noreferrer">BBC Weather once reported 404°C</a>.
+    <br> This page is not that dramatic.
+  </p>
+
+  <div class="error-links">
+    <a href="/">Home</a>
   </div>
-  <br />
-  <br />
-  <a href="/">Take me home!</a>
 </section>
