@@ -69,13 +69,20 @@
       });
     }
 
-    // initial: check hash or default to short bio
-    var initial = (location.hash && location.hash.replace('#','')) || 'short-bio';
-    showSection(initial);
-    // also set the first link as active if no hash
-    if(!location.hash){
-      var firstLink = document.querySelector('.about-nav a[href="#short-bio"]');
-      if(firstLink) firstLink.classList.add('active');
+    // initial: check hash or default to first active section
+    var initial = location.hash && location.hash.replace('#','');
+    if(!initial){
+      // find the section that has 'active' class in the HTML
+      var activeSection = document.querySelector('.about-section.active');
+      if(activeSection){
+        initial = activeSection.getAttribute('data-section');
+      }
+    }
+    if(initial){
+      showSection(initial);
+      // mark corresponding nav link as active
+      var activeLink = document.querySelector('.about-nav a[href="#'+initial+'"]');
+      if(activeLink) activeLink.classList.add('active');
     }
     // align on load (no smooth scroll)
     alignActiveHeader({behavior: 'auto'});

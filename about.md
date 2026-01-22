@@ -47,10 +47,9 @@ Pritthijit Nath is a PhD student at the University of Cambridge, jointly working
 Before starting his PhD, he completed an MSc in Computing with specialisation in Artificial Intelligence and Machine Learning at Imperial College London, where he explored the use of diffusion models for spatio-temporal forecasting of tropical cyclones. He previously earned a Bachelor's degree in Computer Science from Jadavpur University, Kolkata, where he also worked on time-series approaches to forecast pollution trends across India. Beyond academic pursuits and the occasional travel (when not grounded by visa issues), Pritthijit is an enthusiastic train nerd with a deep fascination for railway networks and transport trivia. Post-PhD, he hopes to take on the legendary [Knowledge](https://tfl.gov.uk/info-for/taxis-and-private-hire/licensing/learn-the-knowledge-of-london) exam — not for a career change, but simply for the intellectual challenge of becoming a part-time licensed London taxi driver.
 
 </div>
+</div>
 
 <!-- Education -->
-
-</div>
 
 <div class="about-section" data-section="education" markdown="1">
 
@@ -93,9 +92,9 @@ The Assembly of God Church School, Park Street, Kolkata, India
 - Basic Sciences with Computer Applications  
 - ICSE (Class X): 93%
 
-<!-- Work Experience | Academic -->
-
 </div>
+
+<!-- Work Experience | Academic -->
 
 <div class="about-section" data-section="academic-work-experience" markdown="1">
 
@@ -131,10 +130,9 @@ Jadavpur University, Kolkata, India
 - Developed a novel accuracy enhancement method for time-series prediction using Matrix Profile and motif discovery  
 - Project Supervisor: [Dr Sarbani Roy](https://scholar.google.com/citations?hl=en&user=vembv2sAAAAJ&view_op=list_works&sortby=pubdate)  
 
+</div>
 
 <!-- Work Experience | Industrial -->
-
-</div>
 
 <div class="about-section" data-section="industrial-work-experience" markdown="1">
 
@@ -176,9 +174,9 @@ Xelpmoc Design and Tech Ltd., Kolkata, India
 - Built a data extraction pipeline to ingest electoral roll data published by the Election Commission of India into a NoSQL database  
 - Trained a deep learning–based transliteration model to romanise Bengali names into English  
 
-<!-- Languages -->
-
 </div>
+
+<!-- Languages -->
 
 <div class="about-section" data-section="languages" markdown="1">
 
@@ -193,9 +191,9 @@ Native fluency
 **हिन्दी | Hindi**  
 Working fluency
 
-<!-- Skills -->
-
 </div>
+
+<!-- Skills -->
 
 <div class="about-section" data-section="skills" markdown="1">
 
@@ -211,9 +209,9 @@ Working fluency
 
 **Soft Skills:** Leadership · Event Management · Critical Thinking · Scientific Writing · Problem Solving
 
-<!-- Publications -->
-
 </div>
+
+<!-- Publications -->
 
 <div class="about-section" data-section="publications" markdown="1">
 
@@ -277,9 +275,9 @@ Working fluency
   [Long-term time-series pollution forecast using statistical and deep learning methods.](https://doi.org/10.1007/s00521-021-05901-2)  
   Neural Computing and Applications, 2021, 33(19), 12551–12570.
 
-<!-- Summer Schools -->
-
 </div>
+
+<!-- Summer Schools -->
 
 <div class="about-section" data-section="summer-schools" markdown="1">
 
@@ -295,9 +293,9 @@ Working fluency
 - **Institute of Computing for Climate Science (ICCS) Summer School**  
   University of Cambridge, Cambridge, UK · **2024, 2025**
 
-<!-- Contributed Talks and Posters -->
-
 </div>
+
+<!-- Contributed Talks and Posters -->
 
 <div class="about-section" data-section="contributed-talks-and-posters" markdown="1">
 
@@ -340,9 +338,9 @@ Working fluency
 - **ICLR 2024 – Tackling Climate Change with Machine Learning Workshop**  
   Poster: Forecasting tropical cyclones with cascaded diffusion models
 
-<!-- Positions of Responsiblity -->
-
 </div>
+
+<!-- Positions of Responsiblity -->
 
 <div class="about-section" data-section="positions-of-responsibility" markdown="1">
 
@@ -384,9 +382,9 @@ Working fluency
 - **Lead Organiser**  
   C-Thru2k19 Freshers’ Event · Department of Computer Science and Engineering, Jadavpur University · **2019**
 
-<!-- Awards -->
-
 </div>
+
+<!-- Awards -->
 
 <div class="about-section" data-section="awards" markdown="1">
 

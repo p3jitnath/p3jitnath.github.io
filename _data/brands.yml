@@ -4,6 +4,9 @@
 
 brands:
 
+  - filename: ukri.png
+    url: https://www.ukri.org
+
   - filename: metoffice.png
     url: https://www.metoffice.gov.uk
     
@@ -42,4 +45,3 @@ brands:
 
   - filename: cambridge.png
     url: https://www.cam.ac.uk
-  

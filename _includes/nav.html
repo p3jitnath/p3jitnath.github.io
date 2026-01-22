@@ -2,7 +2,7 @@
     <ul class="list">
         {% if page.title != "Home" %}
             <li class="item">
-                <a class="link" href="{{ site.url }}/">< Back</a>
+                <a class="link" href="{{ site.url }}/">Home</a>
             </li>
         {% endif %}
 
@@ -28,6 +28,12 @@
                     <a class="link" href="{{ site.url }}/about">About</a>
                 </li>
             {% endif %}
+        {% endif %}
+
+        {% if page.title != "Tutorials" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/tutorials">Tutorials</a>
+            </li>
         {% endif %}
 
         {% if site.resume == true %}
