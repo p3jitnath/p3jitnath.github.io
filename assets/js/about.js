@@ -11,6 +11,7 @@
       l.classList.toggle('active', isActive);
       if(isActive) l.setAttribute('aria-current','true'); else l.removeAttribute('aria-current');
     });
+    updateTutorialProgress(id, links);
   }
 
   document.addEventListener('DOMContentLoaded', function(){
@@ -87,4 +88,22 @@
     // align on load (no smooth scroll)
     alignActiveHeader({behavior: 'auto'});
   });
+
+  function updateTutorialProgress(id, links){
+    var progress = document.querySelector('.tutorial-progress');
+    var bar = progress ? progress.querySelector('.tutorial-progress-bar') : null;
+    var label = document.querySelector('.tutorial-progress-label');
+    if(!progress || !bar || !links || !links.length) return;
+
+    var activeIndex = links.findIndex(function(link){
+      return link.getAttribute('href') === ('#' + id);
+    });
+    if(activeIndex < 0) activeIndex = 0;
+
+    var percent = Math.round(((activeIndex + 1) / links.length) * 100);
+    bar.style.width = percent + '%';
+    progress.setAttribute('aria-valuenow', String(percent));
+    progress.setAttribute('aria-valuetext', percent + '%');
+    if(label) label.textContent = percent + '%';
+  }
 })();

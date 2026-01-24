@@ -176,6 +176,31 @@
         border-left: 3px solid $delta
         padding-left: 6px
 
+.tutorial-progress
+    margin-top: 16px
+    height: 8px
+    background: $epsilon
+    border-radius: 999px
+    overflow: hidden
+
+    @media #{$mobile}
+        height: 10px
+
+.tutorial-progress-bar
+    height: 100%
+    width: 0%
+    background: $delta
+    transition: width .2s ease-in-out
+
+.tutorial-progress-label
+    display: block
+    margin-top: 6px
+    font-size: 12px
+    font-weight: 700
+    color: $beta
+    line-height: 1
+    text-align: right
+
 .about-content
     flex: 1
     min-width: 0

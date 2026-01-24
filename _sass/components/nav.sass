@@ -28,6 +28,21 @@
             font-size: 1.8rem
             padding: 20px 10px
 
+        > .item > .link.is-active
+            position: relative
+            padding-bottom: 13px
+
+            &::after
+                content: ""
+                position: absolute
+                left: 50%
+                transform: translateX(-50%)
+                bottom: 4px
+                width: 75%
+                height: 3px
+                background: $delta
+                border-radius: 999px
+
 .nav-home
     margin-top: 40px
     text-align: center

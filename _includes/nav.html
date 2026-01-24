@@ -7,27 +7,27 @@
         {% endif %}
 
         {% if site.blog == true %}
-            {% if page.title != "Blog" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
-                </li>
-            {% endif %}
+            <li class="item">
+                <a class="link {% if page.title == "Blog" %}is-active{% endif %}" href="{{ site.url }}/blog">Blog</a>
+            </li>
         {% endif %}
 
         {% if site.projects == true %}
-            {% if page.title != "Projects" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">Projects</a>
-                </li>
-            {% endif %}
+            <li class="item">
+                <a class="link {% if page.title == "Projects" %}is-active{% endif %}" href="{{ site.url }}/projects">Projects</a>
+            </li>
         {% endif %}
 
         {% if site.about == true %}
-            {% if page.title != "About" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
-                </li>
-            {% endif %}
+            <li class="item">
+                <a class="link {% if page.title == "About" %}is-active{% endif %}" href="{{ site.url }}/about">About</a>
+            </li>
+        {% endif %}
+
+        {% if page.url contains "/tutorials" %}
+            <li class="item">
+                <a class="link is-active" href="{{ site.url }}/tutorials">Tutorials</a>
+            </li>
         {% endif %}
 
         {% if site.resume == true %}

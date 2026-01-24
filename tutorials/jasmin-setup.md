@@ -21,6 +21,10 @@ image: /assets/images/cambridge-crest.jpg
         <li><a href="#troubleshooting">Troubleshooting</a></li>
       </ul>
     </nav>
+    <div class="tutorial-progress" role="progressbar" aria-label="Tutorial progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="0%">
+      <div class="tutorial-progress-bar"></div>
+    </div>
+    <span class="tutorial-progress-label" aria-hidden="true">0%</span>
   </aside>
 
   <div class="about-content" markdown="1">
