@@ -97,7 +97,8 @@ figure.highlight
 
 code
 	padding: 2px 6px
-	font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important
+	font-family: 'ConsolasLocal', 'Consolas', 'Monaco', 'Courier New', monospace !important
+	font-style: normal !important
 	font-size: 13px
 	vertical-align: middle
 	background: #fffbf0
@@ -107,7 +108,8 @@ code
 pre > code,
 tt
 	padding: 1px 0
-	font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important
+	font-family: 'ConsolasLocal', 'Consolas', 'Monaco', 'Courier New', monospace !important
+	font-style: normal !important
 	font-size: 13px
 	line-height: 20px
 	background: #fffbf0
@@ -119,7 +121,8 @@ pre
 	margin: 0 0 1.75em 0
 	width: 100%
 	padding: 12px 15px
-	font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important
+	font-family: 'ConsolasLocal', 'Consolas', 'Monaco', 'Courier New', monospace !important
+	font-style: normal !important
 	font-size: 1.3rem
 	line-height: 2rem
 	overflow: auto
@@ -148,7 +151,7 @@ pre code *,
 .highlight pre,
 .highlight pre *
 	color: #c7254e !important
-	font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important
+	font-family: 'ConsolasLocal', 'Consolas', 'Monaco', 'Courier New', monospace !important
 	text-shadow: none !important
 	font-style: normal !important
 
@@ -205,3 +208,16 @@ pre code *,
 
 .wrapper-large
 	max-width: 810px
+
+// Load local Consolas fonts from assets (fallback to system Consolas)
+@font-face
+	font-family: 'ConsolasLocal'
+	src: url('/assets/fonts/consolas/CONSOLA.TTF') format('truetype')
+	font-weight: 400
+	font-display: swap
+
+@font-face
+	font-family: 'ConsolasLocal'
+	src: url('/assets/fonts/consolas/CONSOLAB.TTF') format('truetype')
+	font-weight: 700
+	font-display: swap

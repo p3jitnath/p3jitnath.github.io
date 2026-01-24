@@ -207,7 +207,7 @@ Working fluency
 
 **Platforms:** Linux · AWS · GCP · Azure · Slurm  
 
-**Soft Skills:** Leadership · Event Management · Critical Thinking · Scientific Writing · Problem Solving
+**Soft Skills:** Leadership · Event Management · Public Engagement · Scientific Writing
 
 </div>
 
@@ -361,11 +361,11 @@ Working fluency
 - **Co-Organiser**  
   AI4ER CDT Student Symposium · University of Cambridge · **2024**
 
-- **Student Volunteer**  
-  ICRA 2023 · IEEE Robotics and Automation Society · **2023**
-
 - **MCR Treasurer**  
   Lucy Cavendish College, University of Cambridge · **2024 – 2025**
+
+- **Student Volunteer**  
+  ICRA 2023 · IEEE Robotics and Automation Society · **2023**
 
 - **Chairperson**  
   IEEE Computer Society Student Branch Chapter · Jadavpur University · **2021 – 2022**
