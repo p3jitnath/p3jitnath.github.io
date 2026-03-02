@@ -111,10 +111,10 @@ Apply for the services you need:
 Connect to JASMIN login servers:
 
 ```bash
-ssh -A username@login.jasmin.ac.uk -I ~/.ssh/id_rsa_jasmin
+ssh -A username@login.jasmin.ac.uk -i ~/.ssh/id_rsa_jasmin
 ```
 
-The `-A` flag enables SSH agent forwarding and `-I` flag points to the specific private key for authentication.
+The `-A` flag enables SSH agent forwarding and `-i` flag points to the specific private key for authentication.
 
 ### SSH Config File
 
