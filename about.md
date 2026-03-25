@@ -397,6 +397,9 @@ Working fluency
 
 ## Awards {#awards}
 
+- **Roysia Foundation AI Discovery Fund** · **2026**  
+  Awarded £1000 travel grant for attending the ELLIS Winter School in Athens, Greece.
+
 - **Turing PhD Enrichment Scheme Studentship** · **2025**  
   Selected among the top doctoral students across the UK for a 9-month placement at the Alan Turing Institute
 
