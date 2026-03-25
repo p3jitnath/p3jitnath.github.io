@@ -308,6 +308,9 @@ Working fluency
 - **EGU General Assembly 2026 – Advancing Earth System Models using Machine Learning**  
   Oral: FedRAIN-Lite: Federated RL for improving idealised numerical weather and climate models
 
+- **Climate Informatics 2026**  
+  Poster: Learning spatiotemporal precipitation fields with probabilistic neural processes
+
 - **NeurIPS 2025 – Tackling Climate Change with Machine Learning Workshop**  
   Poster: FedRAIN-Lite: Federated RL for improving idealised numerical weather and climate models
 
