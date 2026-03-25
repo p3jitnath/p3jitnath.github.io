@@ -233,7 +233,7 @@ Working fluency
 
 2. **Nath, P.**, Schemm, S., Moss, H., Haynes, P., Shuckburgh, E., Webb, M  
   [FedRAIN-Lite: Federated reinforcement algorithms for improving idealised numerical weather and climate models.](https://arxiv.org/abs/2508.14315)  
-  NeurIPS Workshop on Tackling Climate Change with Machine Learning, 2025. arXiv:2508.14315
+  EGU General Assembly (Oral), 2026. EGU26-351 (ITS1.7/CL0.3).
 
 3. **Nath, P.**, Moss, H., Shuckburgh, E., Webb, M  
   [RAIN: Reinforcement algorithms for improving numerical weather and climate models.](https://arxiv.org/abs/2408.16118)  
@@ -283,6 +283,10 @@ Working fluency
 
 ## Summer Schools {#summer-schools}
 
+- **ELLIS Winter School on AI for Earth System, Hazards & Climate Extremes**  
+  European Laboratory for Learning and Intelligent Systems (ELLIS)  
+  Athens, Greece · **2026**
+
 - **NCAS Climate Modelling Summer School**  
   National Centre for Atmospheric Sciences (NCAS), University of Reading  
   Cambridge, UK · **2025**
@@ -300,6 +304,9 @@ Working fluency
 <div class="about-section" data-section="contributed-talks-and-posters" markdown="1">
 
 ## Contributed Talks and Posters {#contributed-talks-and-posters}
+
+- **EGU General Assembly 2026 – Advancing Earth System Models using Machine Learning**  
+  Oral: FedRAIN-Lite: Federated RL for improving idealised numerical weather and climate models
 
 - **NeurIPS 2025 – Tackling Climate Change with Machine Learning Workshop**  
   Poster: FedRAIN-Lite: Federated RL for improving idealised numerical weather and climate models
