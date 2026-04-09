@@ -228,7 +228,7 @@ Working fluency
 
 ## Publications {#publications}
 1. **Nath, P.**, Schemm, S., Moss, H., Haynes, P., Shuckburgh, E., Webb, M. J  
-  [Making Tunable Parameters State-Dependent in Weather and Climate Models with Reinforcement Learning.](https://arxiv.org/abs/2601.04268)  
+  [Replacing tunable parameters in weather and climate models with state dependent functions using reinforcement learning.](https://arxiv.org/abs/2601.04268)  
   arXiv, 2026. arXiv:2601.04268
 
 2. **Nath, P.**, Schemm, S., Moss, H., Haynes, P., Shuckburgh, E., Webb, M  
