@@ -121,18 +121,13 @@ The `-A` flag enables SSH agent forwarding and `-i` flag points to the specific 
 Create a `~/.ssh/config` file for easier access:
 
 ```
-Host sci-vm-03.jasmin
-        HostName sci-vm-03.jasmin.ac.uk
+Host gpuhost*
+        HostName %h.jc.rl.ac.uk
         User username
         ProxyJump username@login.jasmin.ac.uk
 
-Host sci-ph-03.jasmin
-        HostName sci-ph-03.jasmin.ac.uk
-        User username
-        ProxyJump username@login.jasmin.ac.uk
-
-Host gpuhost001.jasmin
-        HostName gpuhost001.jc.rl.ac.uk
+Host *.jasmin
+        HostName %h.ac.uk
         User username
         ProxyJump username@login.jasmin.ac.uk
 
@@ -187,7 +182,7 @@ Your home directory (`/home/users/username`) has limited quota:
 
 Project storage locations:
 ```
-/gws/nopw/j04/gws_name/
+/gws/ssde/j25a/gws_name/
 ```
 
 Features:
@@ -195,6 +190,8 @@ Features:
 - Shared among team members
 - Regular backups
 - High I/O performance
+
+For work inside the GWS, please do consider making a `username` folder under `/users` and treating as your pseudo-home directory.
 
 ### Scratch Space
 
@@ -502,7 +499,7 @@ Host *
 module avail
 
 # Check storage usage
-df -h /gws/nopw/j04/gws_name
+df -h /gws/ssde/j25a/gws_name
 
 # List running jobs
 squeue -u $USER
