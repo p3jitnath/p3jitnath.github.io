@@ -88,7 +88,7 @@ Notes:
 
 1. Log in to the JASMIN Accounts Portal
 2. Navigate to "SSH Public Key" section and press "Update key"
-3. Upload your public key (`~/.ssh/id_rsa.pub`)
+3. Upload your public key (`~/.ssh/id_rsa_jasmin.pub`)
 4. Wait for key approval (usually within 24 hours)
 
 ### Requesting Access Services
@@ -121,38 +121,36 @@ The `-A` flag enables SSH agent forwarding and `-i` flag points to the specific 
 Create a `~/.ssh/config` file for easier access:
 
 ```
+Host login.jasmin.ac.uk
+    HostName login.jasmin.ac.uk
+    User username
+    IdentityFile ~/.ssh/id_rsa_jasmin
+
 Host gpuhost*
-        HostName %h.jc.rl.ac.uk
-        User username
-        ProxyJump username@login.jasmin.ac.uk
+    HostName %h.jc.rl.ac.uk
+    User username
+    ProxyJump username@login.jasmin.ac.uk
+    IdentityFile ~/.ssh/id_rsa_jasmin
 
 Host *.jasmin
-        HostName %h.ac.uk
-        User username
-        ProxyJump username@login.jasmin.ac.uk
+    HostName %h.ac.uk
+    User username
+    ProxyJump username@login.jasmin.ac.uk
+    IdentityFile ~/.ssh/id_rsa_jasmin
 
 Host *
-        ServerAliveInterval 1
-        ServerAliveCountMax 60000
-        TCPKeepAlive no
-        XAuthLocation /opt/X11/bin/xauth
-        ForwardAgent yes
-        ForwardX11 yes
+    ServerAliveInterval 1
+    ServerAliveCountMax 60000
+    TCPKeepAlive no
+    XAuthLocation /opt/X11/bin/xauth
+    ForwardAgent yes
+    ForwardX11 yes
 ```
 
 Now you can simply use:
 
 ```bash
-ssh sci-vm-01.jasmin
-```
-
-### SSH Agent
-
-Start the SSH agent and add your key:
-
-```bash
-eval $(ssh-agent -s)
-ssh-add ~/.ssh/id_rsa
+ssh sci-vm-03.jasmin
 ```
 
 ### Troubleshooting Connection Issues
