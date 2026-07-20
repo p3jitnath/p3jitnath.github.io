@@ -23,6 +23,7 @@ layout: page
         <li><a href="#skills">Skills</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#summer-schools">Summer Schools</a></li>
+        <li><a href="#supervisions">Supervisions</a></li>
         <li><a href="#contributed-talks-and-posters">Contributed Talks & Posters</a></li>
         <li><a href="#positions-of-responsibility">Positions of Responsibility</a></li>
         <li><a href="#awards">Awards</a></li>
@@ -99,6 +100,14 @@ The Assembly of God Church School, Park Street, Kolkata, India
 <div class="about-section" data-section="academic-work-experience" markdown="1">
 
 ## Academic Work Experience {#academic-work-experience}
+
+**Research Scientist**  
+FDL Earth Systems Lab, London, UK  
+**Jun 2026 – Jul 2026**  
+- Worked on an eight-week research sprint in collaboration with ESA ESRIN researchers on tropical cyclone intensity forecasting. 
+- Developed end-to-end [Aardvark Weather](https://www.nature.com/articles/s41586-025-08897-0) style encoder-processor-decoder framework baseline for cyclone intensity forecasting from satellite modalities.
+- Project Supervisors: [Dr Emiliano Diaz (Valencia)](https://scholar.google.com/citations?user=w2Bf-1sAAAAJ&sortby=pubdate) and 
+[Dr Arthur Avenas (ESA ESRIN)](https://www.researchgate.net/profile/Arthur-Avenas-2)
 
 **Technical Consultant**  
 University of Waterloo, Waterloo, Canada  
@@ -203,7 +212,7 @@ Working fluency
 
 **Frameworks:** NumPy · Pandas · Scikit-learn · TensorFlow · PyTorch · Keras · Django · Flask · Node.js  
 
-**Tools:** Kubernetes · Docker · Git · PostgreSQL · MySQL · SQLite · ArangoDB · InfluxDB · LaTeX  
+**Tools:** Codex · Kubernetes · Docker · Git · PostgreSQL · MySQL · SQLite · ArangoDB · InfluxDB · LaTeX  
 
 **Platforms:** Linux · AWS · GCP · Azure · Slurm  
 
@@ -283,6 +292,10 @@ Working fluency
 
 ## Summer Schools {#summer-schools}
 
+- **NCAS Atmospheric Measurement and Modelling Summer School**  
+  National Centre for Atmospheric Sciences (NCAS), University of Reading  
+  Cumbria, UK · **2026**
+
 - **ELLIS Winter School on AI for Earth System, Hazards & Climate Extremes**  
   European Laboratory for Learning and Intelligent Systems (ELLIS)  
   Athens, Greece · **2026**
@@ -295,7 +308,27 @@ Working fluency
   University of Reading, Reading, UK · **2025**
 
 - **Institute of Computing for Climate Science (ICCS) Summer School**  
-  University of Cambridge, Cambridge, UK · **2024, 2025**
+  University of Cambridge, Cambridge, UK · **2024, 2025. 2026**
+
+</div>
+
+<!-- Supervisions -->
+
+<div class="about-section" data-section="supervisions" markdown="1">
+
+## Supervisions {#supervisions}
+
+- [**Emma Allen**](https://www.linkedin.com/in/e-allen)  
+  MPhil Data Intensive Science, University of Cambridge, UK  
+  NeuralGCM: Hybrid physics-AI for weather and climate with additional tropical cyclone case studies · **2026**
+
+- [**Zhibo Ren**](https://www.linkedin.com/in/zhibo-ren-70b12b30a)  
+  BEng Computing (1st Year), Imperial College London, UK  
+  Improving tropical cyclone forecasting with video diffusion models · **2025**
+
+- [**Zhangyue Ling**](https://www.linkedin.com/in/zhangyue-ling-b4b921229)  
+  MSc Computing (AI and ML Specialism), Imperial College London, UK  
+  Estimating atmospheric variables from digital typhoon satellite images via cDDPMs · **2024**
 
 </div>
 
@@ -304,6 +337,9 @@ Working fluency
 <div class="about-section" data-section="contributed-talks-and-posters" markdown="1">
 
 ## Contributed Talks and Posters {#contributed-talks-and-posters}
+
+- **RMetS 2026 – Annual Weather and Climate Confernce**  
+  Oral: Replacing tunable parameters in weather/climate models with state-dependent functions using RL
 
 - **EGU General Assembly 2026 – Advancing Earth System Models using Machine Learning**  
   Oral: FedRAIN-Lite: Federated RL for improving idealised numerical weather and climate models

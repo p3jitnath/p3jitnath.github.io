@@ -111,4 +111,5 @@ exclude:
     "Gemfile.lock",
     "FAQ.md",
     "vendor",
+    "venv-ruby",
   ]
