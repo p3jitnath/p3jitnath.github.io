@@ -237,8 +237,8 @@ Working fluency
 
 ## Publications {#publications}
 1. **Nath, P.**, Schemm, S., Moss, H., Haynes, P., Shuckburgh, E., Webb, M. J  
-  [Replacing tunable parameters in weather and climate models with state dependent functions using reinforcement learning.](https://arxiv.org/abs/2601.04268)  
-  arXiv, 2026. arXiv:2601.04268
+  [Replacing tunable parameters in weather and climate models with state dependent functions using reinforcement learning.](https://doi.org/10.1029/2026MS005745)  
+  Journal of Advances in Modeling Earth Systems, 2026, 18(8), e2026MS005745.
 
 2. **Nath, P.**, Schemm, S., Moss, H., Haynes, P., Shuckburgh, E., Webb, M  
   [FedRAIN-Lite: Federated reinforcement algorithms for improving idealised numerical weather and climate models.](https://arxiv.org/abs/2508.14315)  
@@ -262,7 +262,7 @@ Working fluency
 
 7. **Nath, P.**, Shukla, P., Wang, S., Quilodrán-Casas, C  
   [Forecasting tropical cyclones with cascaded diffusion models.](https://arxiv.org/abs/2310.01690)  
-  ICLR Workshop on Tackling Climate Change with Machine Learning, 2024.arXiv:2310.01690
+  ICLR Workshop on Tackling Climate Change with Machine Learning, 2024. arXiv:2310.01690
 
 8. Wang, K., **Nath, P.**, Kaur, J., Cao, S., Morita, P. P  
   [Cloud-native remote monitoring data ecosystem for aging population based on commercial AAL sensors.](https://ieeexplore.ieee.org/document/10340481)  
@@ -308,7 +308,7 @@ Working fluency
   University of Reading, Reading, UK · **2025**
 
 - **Institute of Computing for Climate Science (ICCS) Summer School**  
-  University of Cambridge, Cambridge, UK · **2024, 2025. 2026**
+  University of Cambridge, Cambridge, UK · **2024, 2025, 2026**
 
 </div>
 
@@ -391,6 +391,9 @@ Working fluency
 <div class="about-section" data-section="positions-of-responsibility" markdown="1">
 
 ## Positions of Responsibility {#positions-of-responsibility}
+
+- **Associate Editor**  
+  Royal Meteorological Society (RMetS) · Weather · **2026**
 
 - **Session Co-Convener**  
   EGU General Assembly 2026 · NP4.2: Developments in ML Across Earth System Models · **2026**
