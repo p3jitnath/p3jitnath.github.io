@@ -104,8 +104,8 @@ The Assembly of God Church School, Park Street, Kolkata, India
 **Research Scientist**  
 FDL Earth Systems Lab, London, UK  
 **Jun 2026 – Jul 2026**  
-- Worked on an eight-week research sprint in collaboration with ESA ESRIN researchers on tropical cyclone intensity forecasting. 
-- Developed end-to-end [Aardvark Weather](https://www.nature.com/articles/s41586-025-08897-0) style encoder-processor-decoder framework baseline for cyclone intensity forecasting from satellite modalities.
+- Collaborated on an eight-week research sprint with European Space Agency (ESA) researchers on tropical cyclone intensity forecasting.
+- Developed end-to-end [Aardvark Weather](https://www.nature.com/articles/s41586-025-08897-0) style encoder-processor-decoder framework for cyclone intensity forecasting from satellite modalities.
 - Project Supervisors: [Dr Emiliano Diaz (Valencia)](https://scholar.google.com/citations?user=w2Bf-1sAAAAJ&sortby=pubdate) and 
 [Dr Arthur Avenas (ESA ESRIN)](https://www.researchgate.net/profile/Arthur-Avenas-2)
 
