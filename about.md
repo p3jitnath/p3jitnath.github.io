@@ -20,7 +20,7 @@ layout: page
         <li><a href="#academic-work-experience">Academic Work Experience</a></li>
         <li><a href="#industrial-work-experience">Industrial Work Experience</a></li>
         <li><a href="#languages">Languages</a></li>
-        <li><a href="#skills">Skills</a></li>
+        {% comment %}<li><a href="#skills">Skills</a></li>{% endcomment %}
         <li><a href="#publications">Publications</a></li>
         <li><a href="#summer-schools">Summer Schools</a></li>
         <li><a href="#supervisions">Supervisions</a></li>
@@ -202,6 +202,7 @@ Working fluency
 
 </div>
 
+{% comment %}
 <!-- Skills -->
 
 <div class="about-section" data-section="skills" markdown="1">
@@ -219,6 +220,7 @@ Working fluency
 **Soft Skills:** Leadership · Event Management · Public Engagement · Scientific Writing
 
 </div>
+{% endcomment %}
 
 <!-- Publications -->
 

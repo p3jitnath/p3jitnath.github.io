@@ -28,6 +28,17 @@
       });
     });
 
+    // Follow section links in the content and browser back/forward navigation.
+    window.addEventListener('hashchange', function(){
+      var target = location.hash.replace(/^#/, '');
+      var sectionExists = Array.from(document.querySelectorAll('.about-section')).some(function(section){
+        return section.getAttribute('data-section') === target;
+      });
+      if(!sectionExists) return;
+      showSection(target);
+      alignActiveHeader({behavior: 'smooth'});
+    });
+
     // make external links inside the about content open in a new tab
     var contentLinks = Array.from(document.querySelectorAll('.about-content a'));
     contentLinks.forEach(function(a){
