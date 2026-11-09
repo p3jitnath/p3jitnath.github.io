@@ -418,48 +418,44 @@ cd "$GWS/my-project"
 codex
 ```
 
-**Recommended: GPT 6.1 Sol with Max reasoning effort and Fast mode enabled.** In the interactive session, type `/model`, select **GPT 6.1 Sol**, then choose **More reasoning…** and **Max** if available. If Fast mode is not already enabled, type `/fast` to turn it on. You can use `/statusline` to show the Fast mode indicator in the footer.
+**Recommended: GPT 6.1 Sol with Max reasoning effort.** In the interactive session, type `/model`, select **GPT 6.1 Sol**, then choose **More reasoning…** and **Max** if available.
 
-Max gives the model more time to reason and can increase response time and usage. Fast mode speeds up model responses but uses subscription limits and credits at a higher rate. See the [official Fast mode guide](https://learn.chatgpt.com/docs/agent-configuration/speed#fast-mode).
+**For writing, I recommend GPT 6.1 Terra with Max reasoning effort.** It is a good option for drafting and revising clear prose, including proposals and reports. Select **GPT 6.1 Terra** with `/model`, then choose **More reasoning…** and **Max** if available.
+
+Max gives the model more time to reason and can increase response time and usage.
 
 Other models you may see include:
 
 - **GPT-6 Astra:** an alternative for demanding debugging, research, or work involving several tools and difficult decisions.
 - **GPT-6 Luna:** an alternative for focused, repeatable tasks such as small edits and structured extraction.
 
-Model, reasoning-effort, and Fast mode availability depend on your plan, workspace, and client. See the [current model guide](https://learn.chatgpt.com/docs/models#choosing-a-model).
+Model and reasoning-effort availability depend on your plan, workspace, and client. See the [current model guide](https://learn.chatgpt.com/docs/models#choosing-a-model).
 
-To launch a session with the recommended model, reasoning effort, and Fast mode:
+To launch a session with the recommended model and reasoning effort:
 
 ```bash
-codex --model gpt-6.1-sol \
-  -c 'model_reasoning_effort="max"' \
-  -c 'service_tier="fast"' \
-  -c 'features.fast_mode=true'
+codex --model gpt-6.1-sol -c 'model_reasoning_effort="max"'
 ```
 
-To keep these defaults, update the top-level entries and the `fast_mode` entry under `[features]` in `~/.codex/config.toml`:
+For a writing session with Terra Max:
+
+```bash
+codex --model gpt-6.1-terra -c 'model_reasoning_effort="max"'
+```
+
+To keep Sol Max as the default, add or update these entries in `~/.codex/config.toml`:
 
 ```toml
 model = "gpt-6.1-sol"
 model_reasoning_effort = "max"
-service_tier = "fast"
-
-[features]
-fast_mode = true
 ```
-
-If `[features]` already exists, add or update `fast_mode` there instead of adding a second table.
 
 ### Why `--yolo` matters
 
 For unattended terminal work, repeated approval prompts can interrupt progress. The `--yolo` flag lets Codex execute shell commands without those approval pauses:
 
 ```bash
-codex --yolo --model gpt-6.1-sol \
-  -c 'model_reasoning_effort="max"' \
-  -c 'service_tier="fast"' \
-  -c 'features.fast_mode=true'
+codex --yolo --model gpt-6.1-sol -c 'model_reasoning_effort="max"'
 ```
 
 This can be useful when you deliberately want Codex to complete a task while you are away from the terminal. **It also disables the execution sandbox:** `--yolo` is an alias for `--dangerously-bypass-approvals-and-sandbox`. Commands can use the files, network, and permissions available to your JASMIN account, including writable files outside the project directory.
